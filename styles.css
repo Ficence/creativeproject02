@@ -1,0 +1,47 @@
+#optionList{
+  display: flex;
+  items-align: center;
+  flex-flow: row wrap;
+  background-color: #aa2222;
+}
+.dndOption{
+  text-align: center;
+  width: 28%;
+  background-color: #33fcee;
+  border: 1px solid #aaaa22;
+  margin: 1% 0 1% 3.5%;
+}
+.linkButton{
+  display:block;
+  text-decoration: none;
+  padding: 5px;
+}
+.dndOption:hover{
+  background-color: #33ff88;
+}
+.inlineLinkButton{
+  border: 1px solid black;
+}
+.inlineLinkButton:hover{
+  background-color: #33ff88;
+}
+#Back{
+  padding: 2px 6px 2px 6px;
+  background-color: #ddd;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+#Back:hover{
+  background-color: #ccc;
+  border: 1px solid gray;
+}
+body{
+  background-color:pink;
+}
+#headerBar{
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 1pc 1pc 0 0;
+}
